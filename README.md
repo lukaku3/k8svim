@@ -16,7 +16,7 @@ EOF
 cat >> ~/.bashrc << EOF
 
 alias k=kubectl
-
+export do=" --dry-run=client -o yaml "
 EOF
 
 source ~/.bashrc
